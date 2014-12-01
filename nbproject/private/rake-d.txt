@@ -45,6 +45,7 @@ db\:test\:load_structure=
 db\:test\:prepare=
 db\:test\:purge=
 db\:version=Retrieves the current schema version number
+default=
 doc=
 doc/app=
 doc/app/index.html=
@@ -74,6 +75,13 @@ rails\:update\:configs=
 railties\:install\:migrations=
 routes=Print out all defined routes in match order, with names. Target specific controller with CONTROLLER=x.
 secret=Generate a cryptographically secure secret key (this is typically used to generate a secret for cookie sessions).
+spec=Run all specs in spec directory (excluding plugin specs)
+spec\:controllers=Run the code examples in spec/controllers
+spec\:helpers=Run the code examples in spec/helpers
+spec\:prepare=
+spec\:requests=Run the code examples in spec/requests
+spec\:statsetup=
+spec\:views=Run the code examples in spec/views
 stats=Report code statistics (KLOCs, etc) from the application
 time\:zones\:all=Displays all time zones, also available: time:zones:us, time:zones:local -- filter with OFFSET parameter, e.g., OFFSET=-6
 time\:zones\:local=
